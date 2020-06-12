@@ -1,5 +1,5 @@
 from flask import Flask, render_template, json, request
-from werkzeug import generate_password_hash, check_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
 # pip install flask-mysql (Mac/Linux)
 # pip install Flask-MySQL (Windows)
 from flaskext.mysql import MySQL
